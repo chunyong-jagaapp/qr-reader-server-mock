@@ -1,7 +1,7 @@
 import * as dotenv from "dotenv";
-import { runCleanUp } from "./services/cleanup-service.ts";
+import { runCleanUp } from "./services/cleanup-service";
 import express from "express";
-import { triggerRelay } from "./services/api-service.ts";
+import { triggerRelay } from "./services/api-service";
 
 const APP_HEARTBEAT_MS = 10000; // 10 seconds
 const PORT = 8000;
