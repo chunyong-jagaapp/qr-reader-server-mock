@@ -24,6 +24,7 @@ function listenToVisitors(): void {
   visitors = [
     { id: "abc123", name: "Alice" },
     { id: "xyz456", name: "Bob" },
+    { id: "def222", name: "David" },
   ];
 }
 
@@ -81,5 +82,5 @@ process.once("SIGTERM", terminateProgram);
 // End Clean-up Handlers
 
 setInterval(() => {
-  console.log("Program is running... This is a updated message");
+  console.log("Program is running...");
 }, APP_HEARTBEAT_MS);
