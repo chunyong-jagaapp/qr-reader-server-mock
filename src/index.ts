@@ -81,5 +81,5 @@ process.once("SIGTERM", terminateProgram);
 // End Clean-up Handlers
 
 setInterval(() => {
-  console.log("program is running...");
+  console.log("Program is running... This is a updated message");
 }, APP_HEARTBEAT_MS);
